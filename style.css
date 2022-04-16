@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #201f1c;
+}
+
+/*Nav Bar*/
+
+ul {
+    list-style-type: none;
+    margin: 0%;
+    position: fixed;
+    overflow: hidden;
+    background-image: url(headerbg.png);
+    top: 0;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+ul li {
+    text-decoration: none;
+    float: left;
+    margin-top: 30px;
+}
+
+ul li .navHome {
+    margin-right: 300px;
+}
+
+ul li a {
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+
+ul li a:hover {
+    color: rgb(255, 251, 0);
+}
+
+ul li .Regis {
+    padding: 10px 20px 10px 20px;
+    border: 3px outset rgb(255, 251, 0);
+    background-color: rgb(255, 251, 0);
+    stroke: none;
+    color: white;
+    border-radius: 22px;
+    margin-left: 400px;
+}
+
+ul li .Regis:hover {
+    color: aliceblue;
+}
+
+.container {
+    border: 1px outset #242320;
+    text-align: center;
+    color: white;
+    background-color: #242320;
+    padding: 10px 20px 10px 20px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 22px;
+}
+
+.container .image img {
+    border-radius: 100%;
+    border: 2px outset black;
+    transition: 0.9s;
+}
+
+.container a {
+    text-decoration: none;
+    color: cyan;
+    text-shadow: 0 0 15px cyan;
+    transition: 1s;
+}
+
+.container a:hover {
+    color: white;
+    text-shadow: 0 0 16px white;
+}
